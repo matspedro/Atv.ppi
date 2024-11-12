@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="atv.css">
+  <title>Formulário de Endereço</title>
+
+</head>
+<body>
+
+  <form method="get" action=".">
+    <div class="input-container">
+      <label for="cep">Cep:</label>
+      <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisacep(this.value);" />
+    </div>
+
+    <div class="input-container">
+      <label for="rua">Rua:</label>
+      <input name="rua" type="text" id="rua" size="60" />
+    </div>
+
+    <div class="input-container">
+      <label for="bairro">Bairro:</label>
+      <input name="bairro" type="text" id="bairro" size="40" />
+    </div>
+
+    <div class="input-container">
+      <label for="cidade">Cidade:</label>
+      <input name="cidade" type="text" id="cidade" size="40" />
+    </div>
+
+    <div class="input-container">
+      <label for="uf">Estado:</label>
+      <input name="uf" type="text" id="uf" size="2" />
+    </div>
+
+    
+
+  </form>
+  <script src="atv.js"> </script>
+
+</body>
+</html>

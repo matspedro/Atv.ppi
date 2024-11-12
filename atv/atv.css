@@ -1,0 +1,83 @@
+
+    /* Reseta margens e padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+/* Corpo da página com degradê de azul para preto */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #00008b, #000000); /* Degradê de azul para preto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff; /* Texto em branco para contraste */
+  }
+  
+
+    /* Estilo do formulário */
+    form {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Estilo dos labels */
+    label {
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    /* Estilo dos campos de input */
+    input[type="text"] {
+      padding: 10px;
+      margin-bottom: 15px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+    }
+
+    /* Estilo para o primeiro input */
+    input[type="text"]:focus {
+      border-color: #4A90E2;
+      outline: none;
+    }
+
+    /* Estilo do botão de submit (caso necessário) */
+    button {
+      background-color: #4A90E2;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #357ABD;
+    }
+
+    /* Estilo para os campos de input do tipo texto */
+    .input-container {
+      margin-bottom: 15px;
+    }
+
+    /* Estilo para os campos em uma linha só (se necessário) */
+    .input-inline {
+      display: inline-block;
+      width: calc(50% - 10px);
+      margin-right: 10px;
+    }
+
+    .input-inline:last-child {
+      margin-right: 0;
+    }
